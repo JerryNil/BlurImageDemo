@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <UIImage+BlurredFrame/UIImage+BlurredFrame.h>
 
 @interface ViewController ()
 
@@ -17,6 +18,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+
+    // base on vImage
+    UIImageView *blurImageView = [[UIImageView alloc] initWithFrame:CGRectMake(100, 100, 200, 300)];
+    blurImageView.contentMode = UIViewContentModeScaleAspectFit;
+    blurImageView.backgroundColor = [UIColor redColor];
+    UIImage *blurImage = [UIImage imageNamed:@"0"];
+
+    CGRect rect = CGRectMake(0, 200, 200, 100);
+    blurImage = [blurImage applyLightEffectAtFrame:rect];
+    blurImageView.image = blurImage;
+    [self.view addSubview:blurImageView];
 }
 
 - (void)didReceiveMemoryWarning {
