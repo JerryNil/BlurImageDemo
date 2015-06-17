@@ -5,21 +5,13 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-<<<<<<< Updated upstream
 	<string>10A8A988-E267-4C98-857A-02712DAE97E2</string>
-=======
-	<string>C8BAF517-39C4-42DB-903F-F3D4D23048FF</string>
->>>>>>> Stashed changes
 	<key>IDESourceControlProjectName</key>
 	<string>BlurImageDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>046DD8741137140B7221773EF7F10C56C74CCF73</key>
-<<<<<<< Updated upstream
 		<string>github.com:JerryNil/BlurImageDemo.git</string>
-=======
-		<string>https://github.com/JerryNil/BlurImageDemo.git</string>
->>>>>>> Stashed changes
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>BlurImageDemo.xcworkspace</string>
@@ -29,11 +21,7 @@
 		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-<<<<<<< Updated upstream
 	<string>github.com:JerryNil/BlurImageDemo.git</string>
-=======
-	<string>https://github.com/JerryNil/BlurImageDemo.git</string>
->>>>>>> Stashed changes
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
