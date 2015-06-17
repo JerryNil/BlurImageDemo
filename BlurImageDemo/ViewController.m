@@ -29,6 +29,8 @@
     blurImage = [blurImage applyLightEffectAtFrame:rect];
     blurImageView.image = blurImage;
     [self.view addSubview:blurImageView];
+    
+    NSLog(@"This is test language");
 }
 
 - (void)didReceiveMemoryWarning {
